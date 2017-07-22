@@ -1,13 +1,5 @@
-// Para que jQuery busque un elemento, usamos los mismos selectores que en CSS,
-// poniendo el selector dentro de $()
-// Ejemplo: $('.clase1'), $('nav'), $('body section')
 
-// Para que funcione, todo el código de JavaScript,
-// se debe ejecutar al cargar completamente el documento (cuando esta 'ready')
 $(document).ready(function(){
-  // Acá la página está totalmente cargada
-
-  // Cuando hago click en un elemento de id services-link, ejecuta esta función
   $('#services-link').click(function() {
 
     // Dentro de la función digo que haga scroll hasta la section services
